@@ -1,0 +1,1 @@
+require('./all/main.js')

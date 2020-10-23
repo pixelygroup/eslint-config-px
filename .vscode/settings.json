@@ -1,0 +1,17 @@
+{
+  "eslint.validate": [
+    "javascript"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.formatOnSave": true,
+  "files.trimTrailingWhitespace": false,
+  "cSpell.words": [
+    "codebases",
+    "dbaeumer",
+    "eqeqeq",
+    "eslintignore",
+    "tabindex"
+  ]
+}
