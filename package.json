@@ -5,13 +5,13 @@
   "homepage": "https://github.com/pixelygroup/eslint-config-px",
   "repository": "github:pixelygroup/eslint-config-px",
   "author": {
-    "name": "Pixely Group",
-    "email": "tech-team@pixelygroup.com",
-    "url": "https://pixelygroup.com/"
+    "name": "Lubos Krystynek",
+    "url": "https://pixely.group/"
   },
   "license": "MIT",
   "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "npm run lint:js && npm run lint:md",
     "lint:js": "eslint .",
     "lint:md": "remark --quiet ."
