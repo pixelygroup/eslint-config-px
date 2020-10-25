@@ -1,6 +1,6 @@
 {
   "name": "@pixelygroup/eslint-config-px",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Pixely Group ESLint Config",
   "homepage": "https://github.com/pixelygroup/eslint-config-px#readme",
   "repository": "github:pixelygroup/eslint-config-px",
@@ -14,7 +14,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "npm run lint:js && npm run lint:md",
     "lint:js": "eslint .",
-    "lint:md": "remark --quiet ."
+    "lint:md": "remark --quiet .",
+    "version-x": "version-x",
+    "version-major": "version-x -- -m",
+    "version-minor": "version-x -- -i",
+    "version-patch": "version-x -- -p"
   },
   "engines": {
     "node": ">=8.3.0"
@@ -31,6 +35,7 @@
     "eslint-plugin-vue-a11y": "0.0.31"
   },
   "devDependencies": {
+    "@pixelygroup/version-x": "^0.3.0",
     "@vue/eslint-config-prettier": "^6.0.0",
     "babel-eslint": "^10.0.0",
     "eslint": "^6.8.0",
@@ -49,7 +54,7 @@
     "remark-preset-lint-recommended": "^3.0.2"
   },
   "keywords": [
-    "Pixely Group",
+    "pixely group",
     "JavaScript",
     "lint",
     "eslint"

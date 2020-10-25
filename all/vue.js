@@ -5,11 +5,11 @@ module.exports = {
   root: true,
   plugins: ['vue', 'vue-a11y'],
   extends: [
-    './main.js',
     'plugin:vue/essential',
     '@vue/standard',
     'plugin:vue/strongly-recommended',
     'plugin:vue/recommended',
+    './main.js',
   ],
   env: {
     es6: true,

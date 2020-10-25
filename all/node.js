@@ -74,18 +74,6 @@ module.exports = {
       {
         'allowAllPropertiesOnSameLine': false
       }
-    ],
-    'quotes': [
-      'error',
-      'single'
-    ],
-    'semi': [
-      'error',
-      'never'
-    ],
-    'space-before-function-paren': [
-      'error',
-      'always'
     ]
   }
 }
