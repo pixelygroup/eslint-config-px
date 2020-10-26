@@ -289,3 +289,6 @@ of writing the code in question.
 - [ESLint § Shareable Configs](https://eslint.org/docs/developer-guide/shareable-configs)
 
 [disabling]: https://eslint.org/docs/user-guide/configuring#disabling-rules-with-inline-comments
+
+## Do you enjoy this package? Help us keep it maintained?
+### [Buy us a coffee or become a sponsor](https://github.com/sponsors/pixelygroup)

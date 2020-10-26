@@ -1,6 +1,6 @@
 {
   "name": "@pixelygroup/eslint-config-px",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Pixely Group ESLint Config",
   "homepage": "https://github.com/pixelygroup/eslint-config-px#readme",
   "repository": "github:pixelygroup/eslint-config-px",
