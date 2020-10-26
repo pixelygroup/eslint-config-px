@@ -1,6 +1,6 @@
 {
   "name": "@pixelygroup/eslint-config-px",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Pixely Group ESLint Config",
   "homepage": "https://github.com/pixelygroup/eslint-config-px#readme",
   "repository": "github:pixelygroup/eslint-config-px",
@@ -16,9 +16,9 @@
     "lint:js": "eslint .",
     "lint:md": "remark --quiet .",
     "version-x": "version-x",
-    "version-major": "version-x -- -m",
-    "version-minor": "version-x -- -i",
-    "version-patch": "version-x -- -p"
+    "version-major": "version-x -m",
+    "version-minor": "version-x -i",
+    "version-patch": "version-x -p"
   },
   "engines": {
     "node": ">=8.3.0"
