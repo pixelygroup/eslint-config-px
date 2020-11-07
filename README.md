@@ -1,13 +1,11 @@
 # Pixely Group - ESLint Config
 
 ## Goals
-
 - Catch mistakes as they are made.
 - Flag areas where code can be improved.
 - Promote consistency in code style & structure.
 
 ## Installation
-
 ```shell
 npm i -D @pixelygroup/eslint-config-px eslint eslint-plugin-jsdoc
 ```
@@ -21,7 +19,6 @@ npm info @pixelygroup/eslint-config-px peerDependencies
 ```
 
 ## Configuration
-
 To use the standard configuration for JavaScript, create an `.eslintrc.js` file
 with the following contents:
 
@@ -44,14 +41,12 @@ be linted:
 The `node_modules` directory is always ignored.
 
 ### Multiple Configurations
-
 This package also exposes other configurations. Note that you will likely have
 to install extra dev dependencies (as noted in the [Installation](#installation)
 section of this readme) when using these rules as they make use of extra
 plugins that are listed in this package's `peerDependencies`.
 
-#### HTML Scripts
-
+### HTML Scripts
 To lint inline scripts contained within HTML files, add the following to the
 `.eslintrc.js` file:
 
@@ -61,8 +56,7 @@ module.exports = {
 }
 ```
 
-#### Vue.js
-
+### Vue.js
 To lint [Vue.js](https://vuejs.org/) single-file components (`*.vue`), add the
 following to the `.eslintrc.js` file:
 
@@ -72,8 +66,17 @@ module.exports = {
 }
 ```
 
-#### Nuxt.js
+### Vue3.js
+To lint [Vue.js](https://vuejs.org/) single-file components (`*.vue`), add the
+following to the `.eslintrc.js` file:
 
+```js
+module.exports = {
+  extends: ["@pixelygroup/eslint-config-px/all/vue3"],
+}
+```
+
+### Nuxt.js
 To lint [Nuxt.js](https://nuxtjs.org/) projects, add the following to the
 `.eslintrc.js` file:
 
@@ -84,7 +87,6 @@ module.exports = {
 ```
 
 #### Node.js
-
 To lint [Node.js](https://nodejs.org/en/) scripts add the following to the
 `.eslintrc.js` file:
 
@@ -94,8 +96,17 @@ module.exports = {
 }
 ```
 
-#### Jest
+#### Koa.js
+To lint [Node.js](https://nodejs.org/en/) scripts add the following to the
+`.eslintrc.js` file:
 
+```js
+module.exports = {
+  extends: ["@pixelygroup/eslint-config-px/all/koa"],
+}
+```
+
+#### Jest
 To lint [Jest](https://jestjs.io/) test scripts, add the following to the
 `.eslintrc.js` file:
 
