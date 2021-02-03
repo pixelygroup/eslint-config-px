@@ -20,7 +20,7 @@ module.exports = {
     'no-var': 'error',
     'prefer-const': ['error', { destructuring: 'all' }],
     curly: 'error',
-    eqeqeq: ['error', 'always', { null: 'ignore' }],
+    eqeqeq: ['error', 'smart'],
     quotes: ['error', 'single'],
     semi: ['error', 'never'],
     'space-before-function-paren': ['error', 'always'],

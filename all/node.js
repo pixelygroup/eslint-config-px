@@ -1,8 +1,8 @@
 module.exports = {
-  // "extends": "eslint:recommended",
-  extends: ['./main.js',
+  extends: [
     'plugin:node/recommended',
     'eslint:recommended',
+    './main.js',
   ],
   env: {
     'commonjs': true,
